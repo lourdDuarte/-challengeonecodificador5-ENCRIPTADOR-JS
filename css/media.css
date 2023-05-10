@@ -1,0 +1,127 @@
+@media only screen and (max-width : 1400px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Martian+Mono:wght@500&family=Roboto+Mono:ital,wght@1,300&family=Titillium+Web:wght@400;900&display=swap');
+    main{
+        margin: 1em 12.6%;
+    }
+
+    .img{
+        width: 18em;
+        height: 15em;
+    }
+
+    .secton-msj img{
+        background: #fff;
+        margin-top: 2em;
+    }
+
+    .secton-msj{
+        width:320px;
+        height: 500px;
+        left: 55em;
+        top: 4em;
+    }
+
+    h6{
+        margin-top: 15em;
+    }
+
+    .mensaje, .mensaje-encriptado{
+        width: 300px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    .btn-copiar{
+        margin: 3em 7em;
+
+    }
+
+
+  }
+
+  @media only screen and (max-width : 767px) {
+
+    .logo{
+        margin: 2em 1em;
+        width: 6%;
+    }
+
+    main{
+
+        margin: 1em 5%;
+    }
+
+    section{
+        margin-right:1em ;
+    }
+
+    .img{
+        display: none;
+    }
+    .txt-ingresado{
+         font-family: Inter;
+         font-size: 18px;
+         font-weight: 18px;
+         line-height: 20px;
+         height: 40px;
+    }
+
+    .btn-encriptado, .btn-desencriptado, .btn-copiar{
+        border-radius: 10px;
+        margin-right: 1em;
+        padding: 0px;
+        width: 130px;
+        height: 50px;
+        font-size: 15px;
+    }
+    
+ 
+   
+    .secton-msj img{
+        display: none;
+    }
+
+    .secton-msj{
+        background: #ffffff;
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        left: 2em;
+        top: 29em
+    }
+
+    .mensaje, .mensaje-encriptado{
+        position: absolute;
+        left: 0em;
+        height: 40px;
+        padding-top: 10px;
+        font-style: normal;
+        color: black;
+        background: #fff;
+        margin: 0 auto;
+    
+    } 
+    .mensaje-encriptado{
+        margin-top: 5px;
+        height: 20px;
+
+    }
+
+    .mensaje{
+        font-size: 15px;
+    }
+
+    h3{
+        margin-top: 2.8em;
+    }
+
+    .btn-copiar{
+        width: 100px;
+        height: 28px;
+        background: #0A3871;
+        color: #fff;
+        padding: 0px;
+        margin: 3.5em 7em;
+        display: none;
+    }
+  }

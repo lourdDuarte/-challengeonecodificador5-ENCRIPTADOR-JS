@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+
+
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" alt="" class="logo">
+    </header>
+    <main>
+        <section class="section-texto">
+            <textarea class="txt-ingresado" placeholder="Ingrese el texto aqui" ></textarea>
+            <h6><i class="fa-solid fa-circle-exclamation" style="color: #0a3871;"></i>Solo letras minusculas y sin acento</h6>
+            <div class="botones">
+                <button class="btn-encriptado" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptado" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="secton-msj">
+            <img src="img/muneco.svg" alt="" class="img">
+            <p id="txt_encriptado" class="mensaje-encriptado"></p>
+            <button class="btn-copiar" onclick="btnCopiar()" >Copiar</button>
+            <h1 class="mensaje">Ningun mensaje fue encontrado</h1>
+            <h3>Ingrese el texto que desees encriptar/desencriptar</h3>
+        </section>
+    </main>
+    
+</body>
+<script src="js/script.js"></script> 
+
+</html>
