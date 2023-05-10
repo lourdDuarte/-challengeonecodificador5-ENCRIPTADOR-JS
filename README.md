@@ -1,4 +1,4 @@
-# -challengeonecodificador5-ENCRIPTADOR-JS
+#challengeonecodificador5-ENCRIPTADOR-JS
 Encriptador con js Edición #5: Challenge ONE Principiante en programación.
 
 El challenge tenia como objetivo trabajar la encriptacion segun las siguientes llaves:
