@@ -1,7 +1,7 @@
 <h1>#challengeonecodificador5-ENCRIPTADOR-JS</h1>
 <h2>Encriptador con js Edición #5: Challenge ONE Principiante en programación</h2>
 
-[<a src="https://lourdduarte.github.io/-challengeonecodificador5-ENCRIPTADOR-JS/>](https://lourdduarte.github.io/-challengeonecodificador5-ENCRIPTADOR-JS/)
+<a href="https://lourdduarte.github.io/-challengeonecodificador5-ENCRIPTADOR-JS/">VIEW SITE</a>
 
 <p>El challenge tenia como objetivo trabajar la encriptacion segun las siguientes llaves:
 
